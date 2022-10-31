@@ -4,16 +4,16 @@ const Footer = () => {
   return (
     <div>
       <div className="w-full bg-white">
-        <div className="lg:w-[71%] px-[23px] py-24  text-lg mx-auto text-color">
-          <h3>
+        <div className="lg:w-[71%] px-[23px] py-24  text-lg mx-auto ">
+          <h3 className="text-center">
             Visit nearbalkans.org and make sure to follow us on our social and
             community channels!
           </h3>
           <div className="lg:flex pt-[39px] w-full lg:w-[540px] lg:mx-auto hover:text-gray-200 cursor-pointer">
-            <div className="hover:gray-200">
+            <div className="hover:gray-200 lg:flex hidden">
               <img src="/assets/svgexport-2.svg" alt="near-logo" />
             </div>
-            <div className="border-gray-200 border-solid border-r-2 mx-[61px] hidden lg:block"></div>
+            <div className="border-gray-200 border-solid hidden border-r-2 mx-[61px] hidden lg:block"></div>
             <div className="flex items-center lg:ml-auto justify-between">
               <div className="lg:px-3 px-2 mt-[40px] lg:mt-0">
                 <img src="/assets/twitter.svg" alt="twitter" />
