@@ -51,7 +51,7 @@ const Footer = () => {
             <div className="text-lg cursor-pointer text-center">
               <p>Cookie Policy</p>
             </div>
-            <div className="text-lg cursor-pointer hover:underline text-center">
+            <div className="text-lg cursor-pointer  text-center">
               <p>Terms & Conditions</p>
             </div>
           </div>
